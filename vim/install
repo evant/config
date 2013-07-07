@@ -1,0 +1,11 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+ln -si "$DIR/.vimrc" ~/.virmrc
+
+mkdir -p ~/.vim/bundle
+if [ ! -d ~/.vim/bundle/vundle ]; then
+  git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+fi
+
+vim -u "$DIR/bundles.vim" +BundleInstall +qa
