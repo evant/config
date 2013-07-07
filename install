@@ -6,5 +6,5 @@ mkdir -p ~/.local/bin
 
 bash "$DIR/bash/install"
 bash "$DIR/i3/install"
-bash "$DIR/vim/install"
 bash "$DIR/git/install"
+bash "$DIR/vim/install"
