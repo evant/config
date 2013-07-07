@@ -1,0 +1,9 @@
+[user]
+	email = evan@tatarka.me
+	name = Evan Tatarka
+[color]
+	ui = auto
+[core]
+	excludesfile = ~/.gitignore
+[push]
+	default = simple
