@@ -1,0 +1,6 @@
+#!/bin/bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+mkdir -p ~/.themes
+cp -ir "$DIR/Elegant_Brit-3.6" ~/.themes/

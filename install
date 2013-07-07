@@ -7,4 +7,5 @@ mkdir -p ~/.local/bin
 bash "$DIR/bash/install"
 bash "$DIR/i3/install"
 bash "$DIR/git/install"
+bash "$DIO/theme/install"
 bash "$DIR/vim/install"
