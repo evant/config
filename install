@@ -2,6 +2,9 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+mkdir -p ~/.local/bin
+
 bash "$DIR/bash/install"
 bash "$DIR/i3/install"
 bash "$DIR/vim/install"
+bash "$DIR/git/install"

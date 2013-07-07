@@ -135,4 +135,7 @@ shopt -s cdspell
 # force GTK look and feel for java
 export _JAVA_OPTIONS='-Dswing.crossplatformlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
 
+# add local bin to bath
+export PATH="$HOME/.local/bin:$PATH"
+
 fi
