@@ -2,7 +2,7 @@
 let windows = has("win32") || has("win16") 
 
 " load vundle
-source ~/vimrc/bundles.vim
+source ~/.vim/bundles.vim
 
 if !windows
   set shellcmdflag=-lc
